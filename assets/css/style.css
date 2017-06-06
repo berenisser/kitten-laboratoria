@@ -13,4 +13,5 @@
 	background-image: url(../img/Landscape.jpg);
 	justify-content: center;
 	background-size: cover;
+	align-items: flex-end;
 }

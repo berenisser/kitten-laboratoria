@@ -8,7 +8,13 @@
 </head>
 <body>
 	<div class="container flex-container">
-		
+		<picture>
+			<source srcset="assets/img/kitten-large.png" media="(min-width: 825px)">
+			<source srcset="assets/img/kitten-medium.png" media="(min-width: 535px)">
+			<img src="assets/img/kitten-small.png" alt="Kitten">
+		</picture>
+<!-- El orden de source importa, si pongo el gatito medium primero el gatito large no aparece-->
+
 	</div>
 </body>
 </html>
